@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import path from "path";
 
 const app = express();
 
@@ -14,6 +15,10 @@ app.get("/api/login", (req, res) => {
 
 app.post("/api/login", (req, res) => {
   res.sendStatus(401);
+});
+
+app.use((req, res) => {
+  res.sendFile(path.resolve("../client/dist/index.html"));
 });
 
 const server = app.listen(process.env.PORT || 3000, () => {
