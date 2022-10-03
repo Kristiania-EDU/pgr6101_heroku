@@ -3,7 +3,7 @@ Heroku
 
 # Project does the following:
 
-* [ ] Simple ExpressJS application
+* [X] Simple ExpressJS application
 * [ ] Static pages
 * [ ] Deploy on Heroku
 * [ ] API methods: GET POST. On Route /login
