@@ -6,13 +6,13 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static("../client/dist"));
 
-app.get("/login", (req, res) => {
+app.get("/api/login", (req, res) => {
   res.json({
     username: "Hello",
   });
 });
 
-app.post("/login", (req, res) => {
+app.post("/api/login", (req, res) => {
   res.sendStatus(401);
 });
 

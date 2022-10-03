@@ -1,8 +1,8 @@
-Heroku
+React with ExpressJS
 ====
 
-This project is published on Heroku.com - https://pgr6101-heroku.herokuapp.com/
-
+💻 React app served by ExpressJS hosted on Heroku.com
+🧙 - https://pgr6101-heroku.herokuapp.com/
 
 # Project does the following:
 
@@ -10,10 +10,10 @@ This project is published on Heroku.com - https://pgr6101-heroku.herokuapp.com/
 * [X] Deploy app to Heroku
   * [X] Publish on commit to Github 
 * [X] Prettier with Husky
-* [ ] Static pages
+* [X] Static pages
 * [ ] API methods: GET POST. On Route /login
   * https://typicode.github.io/husky/#/?id=install
-* [ ] React application with React Router
+* [X] React application with React Router
   * [ ] React.BrowserRouter affects the server
 * [ ] Connect frontend to backend
 * [ ] Jest with ExpressJS
