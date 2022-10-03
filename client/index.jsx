@@ -6,7 +6,7 @@ const root = createRoot(rootElement);
 const ReactApp = () => {
   return (
     <>
-      <h1>Hello React!</h1>
+      <h1>Hello React with Express!</h1>
       <p>This is where i should showcase what i have learned ???</p>
     </>
   );
