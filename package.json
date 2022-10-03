@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd server && npm install",
     "start": "cd server && npm start",
+    "dev": "cd server && npm run dev",
     "format": "prettier --write **/*.{js,jsx,ts,tsx}",
     "format:check": "prettier --check **/*.{js,jsx,ts,tsx}",
     "prepare": "husky install"
