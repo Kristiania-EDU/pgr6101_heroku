@@ -13,9 +13,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.1"
-  },
-  "devDependencies": {
+    "react-router-dom": "^6.4.1",
     "parcel": "^2.7.0",
     "@parcel/transformer-react-refresh-wrap": "^2.7.0"
   }
