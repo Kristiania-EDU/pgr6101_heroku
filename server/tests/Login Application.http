@@ -1,4 +1,4 @@
 POST {{server}}/login
 
 ###
-GET {{server}}/
+GET {{server}}/login

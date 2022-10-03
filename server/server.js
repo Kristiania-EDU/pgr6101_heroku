@@ -8,6 +8,12 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     res.json({
+        message: 'Welcome!'
+    });
+});
+
+app.get('/login', (req, res) => {
+    res.json({
         username: 'Hello'
     });
 });
