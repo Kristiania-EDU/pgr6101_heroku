@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-   res.send(401);
+   res.sendStatus(401);
 });
 
 const server = app.listen(process.env.PORT || 3000, () => {
