@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import "./index.css";
 
 const rootElement = document.getElementById("app");
 const root = createRoot(rootElement);
@@ -19,13 +20,12 @@ const ReactApp = () => {
 
 const FrontPage = () => {
   return (
-    <div>
+    <div className="front-page">
       <h1>Welcome to the ReactApp!</h1>
-      <ul>
-        <li>
-          <Link to={"/login"}>Login</Link>
-        </li>
-      </ul>
+
+      <button>
+        <Link to={"/login"}>Login</Link>
+      </button>
     </div>
   );
 };

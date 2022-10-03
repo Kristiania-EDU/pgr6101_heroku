@@ -1,3 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
-    color: blue;
+    color: #fff;
+}
+
+.front-page {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: darkcyan;
+    padding: 1rem;
+}
+
+.front-page button {
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    background: #dfdfdf;
 }
