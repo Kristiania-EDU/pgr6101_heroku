@@ -1,11 +1,19 @@
 import express from "express";
+import bodyParser from 'body-parser';
 
 const app = express();
 
-app.listen(3000);
+app.use(bodyParser.json());
+
 
 app.get('/', (req, res) => {
-    res.sendStatus(200);
+    res.json({
+        username: 'Hello'
+    });
 });
 
-console.log('Hello Server');
+app.post('/login', (req, res) => {
+   res.send(401);
+});
+
+app.listen(3000);
