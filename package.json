@@ -1,7 +1,7 @@
 {
   "name": "pgr6101_heroku",
   "version": "1.0.0",
-  "description": "Heroku\r ====",
+  "description": "Heroku-App",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -26,6 +26,9 @@
   "homepage": "https://github.com/Kristiania-EDU/pgr6101_heroku#readme",
   "devDependencies": {
     "husky": "^8.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
     "prettier": "^2.7.1"
   }
 }
