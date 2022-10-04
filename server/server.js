@@ -14,7 +14,7 @@ app.get("/api/login", (req, res) => {
 });
 
 app.post("/api/login", (req, res) => {
-  res.sendStatus(401);
+  res.sendStatus(200);
 });
 
 app.use((req, res, next) => {

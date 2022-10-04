@@ -2,6 +2,12 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
+    background: darkcyan;
+    color: #fff;
+}
+
+label {
+    display: block;
 }
 
 #app {
@@ -17,8 +23,10 @@ h1 {
     height: 100%;
     width: 100%;
     text-align: center;
-    background: darkcyan;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .front-page button {
